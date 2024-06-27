@@ -1,0 +1,19 @@
+#in this we have learn 
+chmod -used to changed the access mode of a file
+
+there are three access mode
+1.user
+2.group
+3.owner
+
+access mode      file
+r    4           to display the content
+w    2           to modify
+x    1           to execute the file
+
+method to change Access mode of a file
+1.command ---> chmod 777 filename -------------------this will change the read,write,execute for user,owner and group
+
+
+2.command ---> chmod u=rwx,g=w,o=rwx------------------this will change according too command
+

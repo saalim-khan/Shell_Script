@@ -1,6 +1,6 @@
 #!/bin/bash
 name="saalim khan"
-othername=""
+othername="saalim khan"
 
 if [[ -n ${name} ]]
 then
@@ -10,6 +10,11 @@ fi
 if [[ -z ${othername} ]]
 then
     echo "length of string is zero"
+fi    
+
+if [[ ${name} != ${othername} ]]
+then
+    echo "string is not equal"
 fi    
 
 if [[ ${name} == ${othername} ]]  #this check both string are equal or not(==)

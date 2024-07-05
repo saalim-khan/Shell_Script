@@ -63,6 +63,14 @@ configuration<br>
 install<br>
 deploy<br>
 
+let's run the above code and see the output.<br>
+
+┌──[~/shellscript-]<br>
+└─$ ./functions.sh<br>
+configcode1<br>
+installationscode1<br>
+deploy code 1<br>
+<br>
 
 
 

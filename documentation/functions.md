@@ -41,6 +41,27 @@ Simply use the function name as a command to run a function.<br>
 # invode the function<br>
 function_name<br>
 
+example:<br>
+
+#!/bin/bash<br>
+
+# funtions<br>
+function install(){<br>
+  #### installations code.<br>
+  echo "installationscode1"<br>
+}<br>
+configuration(){<br>
+  # configurations code<br>
+  echo "configcode1"<br>
+}<br>
+<br>
+function deploy {<br>
+  # deploy code.<br>
+  echo "deploy code 1"<br>
+}<br>
+configuration<br>
+install<br>
+deploy<br>
 
 
 

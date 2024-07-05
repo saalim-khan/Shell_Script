@@ -38,6 +38,8 @@ function function_name {<br>
 }<br>
 Simply use the function name as a command to run a function.<br>
 
+# invode the function<br>
+function_name<br>
 
 
 

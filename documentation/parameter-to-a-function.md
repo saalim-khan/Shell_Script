@@ -44,5 +44,17 @@ deploy "webapplication"<br>
 
 <br>
 
+Output:<br>
+
+┌──[~/shellscript]<br>
+└─$ ./functions-args.sh<br>
+executing install - start<br>
+installing nginx<br>
+executing install - end<br>
+config nginx<br>
+configuration<br>
+deploying webapplication<br>
+deploy<br>
+
 
 </p>

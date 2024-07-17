@@ -184,4 +184,34 @@ then<br><br>
 fi<br>
 
 
+
+output:<br>
+
+
+└─$ ./if-string.sh<br>
+length of string is non zero<br>
+both string are not equals<br>
+we can use [[ with numbers condition also.<br>
+<br>
+#!/bin/bash<br>
+number=15<br>
+if [[ $number -eq 5 ]]<br>
+then<br>
+  echo "number is eq 5"<br>
+fi<br>
+if [[ $number -lt 10 ]]<br>
+then<br>
+  echo "number is lessthen 10"<br>
+fi<br>
+if [[ $number -gt 4 ]]<br>
+then<br>
+  echo "number is grater then 4"<br>
+fi<br>
+output<br>
+
+
+└─$ ./if-number.sh<br>
+number is grater then 4<br>
+
+
 </p>

@@ -105,7 +105,20 @@ again we get the same output.<br>
 └─$ ./if-string.sh<br>
 both string are equal<br>
 
+now let's remove the " form if the condition<br>
 
+#!/bin/bash<br>
+name="Saalim khan"<br>
+othername="Saalim khan"<br>
+if [ ${name} == ${othername} ]<br>
+then<br>
+ echo "both string are equal"<br>
+fi<br>
+
+output will be<br>
+
+└─$ ./if-string.sh<br>
+./test.sh: line 4: [: too many arguments<br>
 
 
 

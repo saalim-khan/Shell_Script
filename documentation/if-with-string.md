@@ -121,6 +121,25 @@ output will be<br>
 ./test.sh: line 4: [: too many arguments<br>
 
 
+now let's add [[ in if condition and check the output.<br>
+
+#!/bin/bash<br>
+name="Saalim khan"<br>
+othername="Saalim khan"<br>
+if [[ ${name} == ${othername} ]]<br>
+then<br>
+ echo "both string are equal"<br>
+fi<br>
+output will be<br>
+
+
+└─$ ./if-string.sh,<br>
+both string are equal<br>
+
+so here we get our desired output. and [[ is the advance version of [.<br>
+
+
+
 
 
 

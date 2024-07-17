@@ -82,8 +82,28 @@ then<br>
  echo "both string are equal"<br>
 fi<br>
 
+now output will be<br>
 
 
+└─$ ./test.sh<br>
+both string are equal<br>
+
+now let's create one more variable and compare them<br>
+
+#!/bin/bash<br>
+name="Saalim khan"<br>
+othername="Saalim khan"<br>
+if [ "${name}" == "${othername}" ]<br>
+then<br>
+ echo "both string are equal"<br>
+fi<br>
+
+
+again we get the same output.<br>
+
+
+└─$ ./if-string.sh<br>
+both string are equal<br>
 
 
 

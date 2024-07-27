@@ -39,6 +39,18 @@ now let's run the same program as a root user.<br>
 └─# ./if-or-operator.sh<br>
 user is root user or os is linux.<br>
 
+Example 2:<br>
+
+#!/bin/bash<br>
+read -p "do you want to continue (Y/y/yes) " uservalue<br>
+if [[ ${uservalue,,} == 'y' || ${uservalue,,} == 'yes' ]]<br>
+then<br>
+  echo "you want it"<br>
+else<br>
+  echo "you dont want it."<br>
+fi<br>
+executing the above script four-time and supply different outputs and check the output in the below section.<br>
+
 
 
 

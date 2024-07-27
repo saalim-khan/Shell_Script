@@ -52,6 +52,26 @@ fi<br>
 executing the above script four-time and supply different outputs and check the output in the below section.<br>
 
 
+└─$ ./if-or-operator.sh<br>
+do you want to continue (Y/y/yes) y<br>
+you want it<br>
+
+
+└─$ ./if-or-operator.sh<br>
+do you want to continue (Y/y/yes) Y<br>
+you want it<br>
+
+
+└─$ ./if-or-operator.sh<br>
+do you want to continue (Y/y/yes) yes<br>
+you want it<br>
+
+
+└─$ ./if-or-operator.sh<br>
+do you want to continue (Y/y/yes) Yes<br>
+you want it<br>
+
+
 
 
 

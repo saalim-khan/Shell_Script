@@ -49,4 +49,14 @@ fi<br>
 echo "I am Here"<br>
 
 
+output:<br>
+
+
+└─$ ./if-else.sh<br>
+length of string is zero<br>
+length of string is zero -two<br>
+both string are not equals. - three<br>
+both string are not equals -four<br>
+I am Here<br>
+<br>
 </p>

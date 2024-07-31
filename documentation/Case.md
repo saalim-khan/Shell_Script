@@ -31,4 +31,25 @@ case ${action} in<br>
         echo "please enter correct command line args."<br>
 esac<br>
 
+Let's run the above program with one command line argument.<br>
+
+
+└─$ ./casestatement.sh START<br>
+going to start<br>
+actionone two<br>
+
+
+└─$ ./casestatement.sh start<br>
+going to start<br>
+actionone two<br>
+
+
+└─$ ./casestatement.sh stop<br>
+going to stop<br>
+
+
+└─$ ./casestatement.sh sToP<br>
+going to stop<br>
+
+
 </p>

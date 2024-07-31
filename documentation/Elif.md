@@ -23,8 +23,30 @@ else<br>
    statement5<br>
 fi<br>
 
+Example:<br>
+
+#!/bin/bash<br>
+number=4<br>
+
+if [[ ${number} -eq 10 ]]<br>
+then<br>
+  echo "number is 10"<br>
+elif [[ ${number} -lt 10 ]]<br>
+then<br>
+  echo "number is less then 10"<br>
+elif [[ ${number} -lt 5 ]]<br>
+then<br>
+  echo "number is less then 5"<br>
+else<br>
+  echo "number is grater then 10"<br>
+fi<br>
 
 
+Output<br>
+
+<br>
+└─$ ./elif.sh<br>
+number is less then 10<br>
 
 
 

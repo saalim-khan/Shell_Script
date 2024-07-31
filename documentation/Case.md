@@ -96,4 +96,30 @@ you answer no<br>
 
 
 
+Example-2<br>
+
+#!/bin/bash<br>
+read -p "enter y or n" answer<br>
+case ${answer,,} in<br>
+    [y]*)<br>
+        echo "you enter Yes"<br>
+        ;;<br>
+    [n]* )<br>
+        echo "you enter no"<br>
+        ;;<br>
+    *)<br>
+        echo "Invalid Anser"<br>
+        ;;<br>
+esac<br>
+
+└─$ ./casestatement-2.sh<br>
+enter y or ny<br>
+you enter Yes<br>
+
+
+└─$ ./casestatement-2.sh<br>
+enter y or nyeeeeeee<br>
+you enter Yes<br>
+
+
 </p>

@@ -51,5 +51,49 @@ going to stop<br>
 └─$ ./casestatement.sh sToP<br>
 going to stop<br>
 
+<h1>Case Statement with Regex
+</h1>
+Example<br>
+
+read -p "enter y or n: " ANSWER<br>
+case "$ANSWER" in<br>
+    [Yy] | [Yy][Ee][Ss])<br>
+        echo "you answer yes"<br>
+        ;;<br>
+    [Nn] | [Nn][Oo])<br>
+        echo "you answer no"<br>
+        ;;<br>
+    *)<br>
+        echo "Invalid Answer"<br>
+        ;;<br>
+        exit<br>
+esac<br>
+
+
+
+
+output<br>
+
+
+└─$ ./casethree.sh<br>
+enter y or n: y<br>
+you answer yes<br>
+
+
+└─$ ./casethree.sh<br>
+enter y or n: ye<br>
+Invalid Answer<br>
+
+
+└─$ ./casethree.sh<br>
+enter y or n: yes<br>
+you answer yes<br>
+
+
+└─$ ./casethree.sh<br>
+enter y or n: n<br>
+you answer no<br>
+
+
 
 </p>

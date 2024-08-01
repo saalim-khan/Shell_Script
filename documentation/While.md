@@ -32,6 +32,22 @@ do<br>
 done<br>
 
 
+Example-2<br>
+,<br>
+#!/bin/bash<br>
+# example of infinite loop<br>
+while true<br>
+do<br>
+    echo "this is test"<br>
+done<br>
+
+
+output<br>
+
+this is test<br>
+this is test<br>
+...<br>
+...<br>
 
 
 </p>

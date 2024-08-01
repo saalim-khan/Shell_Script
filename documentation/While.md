@@ -60,7 +60,21 @@ do<br>
     ((initNumber++))<br>
 done<br>
 
+output:<br>
 
+
+└─$ ./while-loop.sh<br>
+please enter a number 2<br>
+2<br>
+4<br>
+6<br>
+8<br>
+10<br>
+12<br>
+14<br>
+16<br>
+18<br>
+20<br>
 
 
 </p>

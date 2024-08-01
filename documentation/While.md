@@ -23,6 +23,14 @@ do<br>
 done<br>
 
 
+Example-1<br>
+
+#!/bin/bash<br>
+while [[ $answer != "yes" ]]<br>
+do<br>
+    read -p "please enter yes " answer<br>
+done<br>
+
 
 
 

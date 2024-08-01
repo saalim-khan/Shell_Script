@@ -49,5 +49,18 @@ this is test<br>
 ...<br>
 ...<br>
 
+Example-3<br>
+
+#!/bin/bash<br>
+read -p "please enter a number " number<br>
+initNumber=1<br>
+while [[ ${initNumber} -le 10 ]]<br>
+do<br>
+    echo $((initNumber*number))<br>
+    ((initNumber++))<br>
+done<br>
+
+
+
 
 </p>

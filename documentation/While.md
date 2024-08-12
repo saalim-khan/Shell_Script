@@ -8,7 +8,7 @@ A while loop is a statement that iterates over a block of code till the conditio
 This repeats until the condition becomes false.<br>
 
 
-<h4>syntax:<br></h4>
+<h3>syntax:<br></h3>
 
 while [[ condition ]]<br>
 do<br>
@@ -23,7 +23,7 @@ do<br>
 done<br>
 
 
-<h4>Example-1<br></h4>
+<h3>Example-1<br></h3>
 
 #!/bin/bash<br>
 while [[ $answer != "yes" ]]<br>

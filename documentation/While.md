@@ -32,7 +32,7 @@ do<br>
 done<br>
 
 
-Example-2<br>
+<h3>Example-2<br></h3>
 ,<br>
 #!/bin/bash<br>
 # example of infinite loop<br>
@@ -61,7 +61,7 @@ do<br>
     ((initNumber++))<br>
 done<br>
 
-output:<br>
+<h3>output:<br></h3>
 
 
 └─$ ./while-loop.sh<br>

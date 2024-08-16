@@ -29,19 +29,20 @@ for variableName in {1..10}<br>
 do<br>
   echo $((variableName*number))<br>
 done</h3>
-output:
+output:<br>
 
-please enter a number 2
-2
-4
-6
-8
-10
-12
-14
-16
-18
-20
+please enter a number 2<br>
+2<br>
+4<br>
+6<br>
+8<br>
+10<br>
+12<br>
+14<br>
+16<br>
+18<br>
+20<br>
+
 #!/bin/bash
 for variableName in "gaurav Sharma" "ankit Joshi" "rajkumar meena"
 do

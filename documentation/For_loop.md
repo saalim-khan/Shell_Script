@@ -6,21 +6,21 @@ Keywords are for, in, do, done<br>
 List is a list of variables which are separated by spaces.<br> If list is not mentioned in the for statement, then it takes the positional parameter value that were passed into the shell.<br>
 Varname is any variable assumed by the user.<br>
 <h3>
-#!/bin/bash
+#!/bin/bash<br>
 
-for variableName in item1 item2 item3 item4 item5 item6
-do
- echo "${variableName}"
+for variableName in item1 item2 item3 item4 item5 item6<br>
+do<br>
+ echo "${variableName}"<br>
 done</h3>
-output:
+output:<br>
 
-item1
-item2
-item3
-item4
-item5
-item6
-we can use range in for loop.
+item1<br>
+item2<br>
+item3<br>
+item4<br>
+item5<br>
+item6<br>
+we can use range in for loop.<br>
 
 #!/bin/bash
 

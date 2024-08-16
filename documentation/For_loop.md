@@ -60,12 +60,12 @@ for i in *<br>
 do<br>
   echo $i<br>
 done</h3>
-output: will print all the files and folder name of present present working directory.
-
-#!/bin/bash
-for i in $(ls *.txt)
-do
-  echo "$i"
-done
-output: it will print all the file name with txt extension
+output: will print all the files and folder name of present present working directory.<br>
+<h3>
+#!/bin/bash<br>
+for i in $(ls *.txt)<br>
+do<br>
+  echo "$i"<br>
+done</h3>
+output: it will print all the file name with txt extension<br>
 </p>

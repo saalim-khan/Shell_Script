@@ -1,16 +1,17 @@
 <h1>For Loop</h1>
 <p>
-The for loop moves through a specified list of values until the list is exhausted.
+The for loop moves through a specified list of values until the list is exhausted.<br>
 
-Keywords are for, in, do, done
-List is a list of variables which are separated by spaces. If list is not mentioned in the for statement, then it takes the positional parameter value that were passed into the shell.
-Varname is any variable assumed by the user.
+Keywords are for, in, do, done<br>
+List is a list of variables which are separated by spaces.<br> If list is not mentioned in the for statement, then it takes the positional parameter value that were passed into the shell.<br>
+Varname is any variable assumed by the user.<br>
+<h3>
 #!/bin/bash
 
 for variableName in item1 item2 item3 item4 item5 item6
 do
  echo "${variableName}"
-done
+done</h3>
 output:
 
 item1

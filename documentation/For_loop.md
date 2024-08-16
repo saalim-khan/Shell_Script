@@ -42,12 +42,13 @@ please enter a number 2<br>
 16<br>
 18<br>
 20<br>
-
-#!/bin/bash
-for variableName in "gaurav Sharma" "ankit Joshi" "rajkumar meena"
-do
- echo "${variableName}"
-done
+<h3>
+#!/bin/bash<br>
+for variableName in "gaurav Sharma" "ankit Joshi" "rajkumar meena"<br>
+do<br>
+ echo "${variableName}"<br>
+done<br>
+</h3>
 output:
 
 gaurav sharma

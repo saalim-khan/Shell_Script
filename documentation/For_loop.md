@@ -21,14 +21,14 @@ item4<br>
 item5<br>
 item6<br>
 we can use range in for loop.<br>
+<h3>
+#!/bin/bash<br>
 
-#!/bin/bash
-
-read -p "please enter a number " number
-for variableName in {1..10}
-do
-  echo $((variableName*number))
-done
+read -p "please enter a number " number<br>
+for variableName in {1..10}<br>
+do<br>
+  echo $((variableName*number))<br>
+done</h3>
 output:
 
 please enter a number 2

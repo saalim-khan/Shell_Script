@@ -44,21 +44,22 @@ please enter a number 2<br>
 20<br>
 <h3>
 #!/bin/bash<br>
-for variableName in "gaurav Sharma" "ankit Joshi" "rajkumar meena"<br>
+for variableName in "saalim khan" "yasir" "kashif"<br>
 do<br>
  echo "${variableName}"<br>
 done<br>
 </h3>
-output:
+output:<br>
 
-gaurav sharma
-ankit Joshi
-rajkumar meena
-#!/bin/bash
-for i in *
-do
-  echo $i
-done
+saalim khan<br>
+yasir<br>
+kashif<br>
+<h3>
+#!/bin/bash<br>
+for i in *<br>
+do<br>
+  echo $i<br>
+done</h3>
 output: will print all the files and folder name of present present working directory.
 
 #!/bin/bash

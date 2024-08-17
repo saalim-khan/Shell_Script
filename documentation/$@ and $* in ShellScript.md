@@ -1,14 +1,15 @@
 <h1>$@ and $* in ShellScript</h1>
 <p>
-$@ behaves like $* except that when quoted the arguments are broken up properly if there are spaces in them.
+$@ behaves like $* except that when quoted the arguments are broken up properly if there are spaces in them.<br>
 
-for var in "$@"
-do
-    echo "$var"
-done
+for var in "$@"<br>
+do<br>
+    echo "$var"<br>
+done<br>
+
 Gives this:
-
-$ sh test.sh 1 2 '3 4'
+<h3>
+$ sh test.sh 1 2 '3 4' <br>
 1
 2
 3
@@ -41,22 +42,15 @@ done
 output:
 
 
-└─$ ./commandline-args.sh gaurav saurav amit manish
+└─$ ./commandline-args.sh saalim yasir umar mohd==== loop one ========
+saalim yasir umar mohd==== loop two ========
+saalim
+yasir
+umar
+mohd/commandline-args.sh saalim yasir umar "mohd"
 =========== loop one ========
-gaurav saurav amit manish
-=========== loop two ========
-gaurav
-saurav
-amit
-manish
-
-
-└─$ ./commandline-args.sh gaurav saurav amit "manish sharma"
-=========== loop one ========
-gaurav saurav amit manish sharma
-=========== loop two ========
-gaurav
-saurav
-amit
-manish sharma
-</p>
+saalim yasir umar mohd=========== loop two ========
+saalim
+yasir
+umar
+mohd</p>

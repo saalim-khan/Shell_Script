@@ -16,41 +16,48 @@ $ sh test.sh 1 2 '3 4' <br>
 4
 Now change "$@" to $*:
 
-for var in $*
-do
-    echo "$var"
-done
-And you get this:
-$ ./test.sh 1 2 '3 4'
+for var in $*,<br>
+do<br>
+    echo "$var"<br>
+done<br>
+And you get this:<br>
+
+$ ./test.sh 1 2 '3 4' 
 1
 2
 3
 4
-#!/bin/bash
+
+<h3> #!/bin/bash
 
 echo "=========== loop one ========"
+
 for i in "$*"
+
 do
+
     echo $i
+
 done
+<h3>
+echo "=========== loop two ========"<br>
+for i in "$@"<br>
+do<br>
+    echo $i<br>
+done</h3>
+output:<br>
 
-echo "=========== loop two ========"
-for i in "$@"
-do
-    echo $i
-done
-output:
 
-
-└─$ ./commandline-args.sh saalim yasir umar mohd==== loop one ========
-saalim yasir umar mohd==== loop two ========
-saalim
-yasir
-umar
-mohd/commandline-args.sh saalim yasir umar "mohd"
-=========== loop one ========
-saalim yasir umar mohd=========== loop two ========
-saalim
-yasir
-umar
-mohd</p>
+└─$ ./commandline-args.sh saalim yasir umar mohd==== loop one ========<br>
+saalim yasir umar mohd==== loop two ========<br>
+saalim<br>
+yasir<br>
+umar<br>
+mohd/commandline-args.sh saalim yasir umar "mohd"<br>
+=========== loop one ========<br>
+saalim yasir umar mohd=========== loop two ========<br>
+saalim<br>
+yasir<br>
+umar<br>
+mohd
+</p>

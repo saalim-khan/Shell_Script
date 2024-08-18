@@ -48,16 +48,16 @@ let's run the same program with some invalid value.<br>
 1) linux<br>
 2) windows<br>
 3) mac<br>
-please select os? 5
-Invalid
-please select os? 4
-Invalid
-please select os? 8
-Invalid
-please select os? 6
-Invalid
-please select os? 2
-you selected windows
-thanks.
+please select os? 5<br>
+Invalid<br>
+please select os? 4<br>
+Invalid<br>
+please select os? 8<br>
+Invalid<br>
+please select os? 6<br>
+Invalid<br>
+please select os? 2<br>
+you selected windows<br>
+thanks.<br>
 
 </p>

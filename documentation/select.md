@@ -27,4 +27,18 @@ do<br>
       echo "Invalid"<br>
   esac<br>
 done</h4>
+
+
+
+output:<br>
+
+
+└─$ ./select-statement.sh<br>
+1) linux<br>
+2) windows<br>
+3) mac<br>
+please select os? 1<br>
+you selected linux<br>
+thanks.<br>
+
 </p>

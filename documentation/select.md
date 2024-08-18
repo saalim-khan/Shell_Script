@@ -41,13 +41,13 @@ please select os? 1<br>
 you selected linux<br>
 thanks.<br>
 
-let's run the same program with some invalid value.
+let's run the same program with some invalid value.<br>
 
-┌──(gaurav㉿learning-ocean)-[~/shellscript-youtube]
-└─$ ./select-statement.sh
-1) linux
-2) windows
-3) mac
+
+└─$ ./select-statement.sh<br>
+1) linux<br>
+2) windows<br>
+3) mac<br>
 please select os? 5
 Invalid
 please select os? 4

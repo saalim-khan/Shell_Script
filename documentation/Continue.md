@@ -16,4 +16,29 @@ continue n<br>
 
 Here n specifies the nth enclosing loop to continue from.<br>
 
+Example
+
+#!/bin/bash
+initNumber=1
+while [[ ${initNumber} -lt 10 ]]
+do
+    ((initNumber++))
+    if [[ ${initNumber} -eq 5 ]]
+    then
+        continue
+    fi
+    echo ${initNumber}
+done
+Output
+
+┌──(gaurav㉿learning-ocean)-[~/shellscript-youtube]
+└─$ ./continue-statement.sh
+2
+3
+4
+6
+7
+8
+9
+10
 </p>

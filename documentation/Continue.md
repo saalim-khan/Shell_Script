@@ -32,7 +32,7 @@ done</h3>
 
 Output<br>
 
-└─$ ./continue-statement.sh<br>
+<h3>└─$ ./continue-statement.sh<br>
 2<br>
 3<br>
 4<br>
@@ -40,5 +40,5 @@ Output<br>
 7<br>
 8<br>
 9<br>
-10<br>
+10<br></h3>
 </p>

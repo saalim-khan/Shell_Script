@@ -30,15 +30,15 @@ do<br>
     echo ${initNumber}<br>
 done</h3>
 
-Output
+Output<br>
 
-└─$ ./continue-statement.sh
-2
-3
-4
-6
-7
-8
-9
-10
+└─$ ./continue-statement.sh<br>
+2<br>
+3<br>
+4<br>
+6<br>
+7<br>
+8<br>
+9<br>
+10<br>
 </p>

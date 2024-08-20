@@ -4,7 +4,7 @@
 <p>
 
 
-The continue statement is similar to the break command, except that it causes the current iteration of the loop to exit, rather than the entire loop. This statement is useful when an error has occurred but you want to try to execute the next iteration of the loop.<br>
+The continue statement is similar to the break command, except that it causes the current iteration of the loop to exit, rather than the entire loop.<br> This statement is useful when an error has occurred but you want to try to execute the next iteration of the loop.<br>
 
 Syntax<br>
 
@@ -16,7 +16,7 @@ continue n<br>
 
 Here n specifies the nth enclosing loop to continue from.<br>
 
-Example
+Example<br>
 <h3>
 #!/bin/bash<br>
 initNumber=1<br>

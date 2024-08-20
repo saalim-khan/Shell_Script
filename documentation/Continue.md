@@ -17,21 +17,21 @@ continue n<br>
 Here n specifies the nth enclosing loop to continue from.<br>
 
 Example
+<h3>
+#!/bin/bash<br>
+initNumber=1<br>
+while [[ ${initNumber} -lt 10 ]]<br>
+do<br>
+    ((initNumber++))<br>
+    if [[ ${initNumber} -eq 5 ]]<br>
+    then<br>
+        continue<br>
+    fi<br>
+    echo ${initNumber}<br>
+done</h3>
 
-#!/bin/bash
-initNumber=1
-while [[ ${initNumber} -lt 10 ]]
-do
-    ((initNumber++))
-    if [[ ${initNumber} -eq 5 ]]
-    then
-        continue
-    fi
-    echo ${initNumber}
-done
 Output
 
-┌──(gaurav㉿learning-ocean)-[~/shellscript-youtube]
 └─$ ./continue-statement.sh
 2
 3

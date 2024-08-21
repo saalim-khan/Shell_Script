@@ -7,11 +7,12 @@ The break statement is used to terminate the execution of the entire loop, after
 Syntax<br>
 The following break statement is used to come out of a loop.<br>
 
-<h3>break</h3>
+<h3>break</h3><br>
 
 The break command can also be used to exit from a nested loop using this format.<br>
+<h3>
+break n</h3><br>
 
-break n
-Here n specifies the nth enclosing loop to the exit from.
+Here n specifies the nth enclosing loop to the exit from.<br>
 
 </p>

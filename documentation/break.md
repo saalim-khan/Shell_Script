@@ -14,5 +14,21 @@ The break command can also be used to exit from a nested loop using this format.
 break n</h3><br>
 
 Here n specifies the nth enclosing loop to the exit from.<br>
+Here n specifies the nth enclosing loop to the exit from.
+
+example
+
+#!/bin/bash
+initNumber=1
+while [[ ${initNumber} -lt 10 ]]
+do
+    echo ${initNumber}
+    if [[ ${initNumber} -eq 5 ]]
+    then
+      echo "condition is true number is ${initNumber} going to break the loop."
+      break;
+    fi
+    ((initNumber++))
+done
 
 </p>

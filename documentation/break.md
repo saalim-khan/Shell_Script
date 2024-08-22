@@ -14,9 +14,9 @@ The break command can also be used to exit from a nested loop using this format.
 break n</h3><br>
 
 Here n specifies the nth enclosing loop to the exit from.<br>
-Here n specifies the nth enclosing loop to the exit from.
 
-example
+
+example<br>
 
 #!/bin/bash
 initNumber=1

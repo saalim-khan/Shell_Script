@@ -23,12 +23,12 @@ initNumber=1<br>
 while [[ ${initNumber} -lt 10 ]]<br>
 do<br>
     echo ${initNumber}<br>
-    if [[ ${initNumber} -eq 5 ]]
+    if [[ ${initNumber} -eq 5 ]]<br>
     then<br>
-      echo "condition is true number is ${initNumber} going to break the loop."
-      break;
-    fi
-    ((initNumber++))
-done
+      echo "condition is true number is ${initNumber} going to break the loop."<br>
+      break;<br>
+    fi<br>
+    ((initNumber++))<br>
+done<br>
 </h3>
 </p>

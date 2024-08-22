@@ -18,7 +18,7 @@ Here n specifies the nth enclosing loop to the exit from.<br>
 
 example<br>
 
-#!/bin/bash
+<h3>#!/bin/bash
 initNumber=1
 while [[ ${initNumber} -lt 10 ]]
 do
@@ -30,5 +30,5 @@ do
     fi
     ((initNumber++))
 done
-
+</h3>
 </p>

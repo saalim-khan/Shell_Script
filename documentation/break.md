@@ -18,13 +18,13 @@ Here n specifies the nth enclosing loop to the exit from.<br>
 
 example<br>
 
-<h3>#!/bin/bash
-initNumber=1
-while [[ ${initNumber} -lt 10 ]]
-do
-    echo ${initNumber}
+<h3>#!/bin/bash<br>
+initNumber=1<br>
+while [[ ${initNumber} -lt 10 ]]<br>
+do<br>
+    echo ${initNumber}<br>
     if [[ ${initNumber} -eq 5 ]]
-    then
+    then<br>
       echo "condition is true number is ${initNumber} going to break the loop."
       break;
     fi

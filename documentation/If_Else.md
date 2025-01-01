@@ -26,6 +26,7 @@ else<br>
 fi<br>
 
 if [[ -z ${name} ]]<br>
+
 then<br>
     echo "length of string is zero -two"<br>
 else<br>

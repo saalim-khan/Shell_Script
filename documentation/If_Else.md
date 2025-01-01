@@ -39,6 +39,8 @@ else<br>
     echo "both string are not equals. - three"<br>
 fi<br>
 
+
+
 if [[ ${name} != ${othername} ]]<br>
 then<br>
     echo "both string are not equals -four"<br>
